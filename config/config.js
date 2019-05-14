@@ -1,4 +1,4 @@
-const appName = 'authentik'
+const appName = 'skribbly'
 const databaseName = 'authentik'
 const serverPort = process.env.PORT || 3122
 
@@ -20,7 +20,7 @@ const completeConfig = {
   },
 
   production: {
-    appUrl: `https://authentikapp.herokuapp.com/`
+    appUrl: `https://skribbly.herokuapp.com/`
   }
 
 }
